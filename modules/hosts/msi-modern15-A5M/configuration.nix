@@ -6,6 +6,7 @@
     {
       imports = [
         self.nixosModule."msi-modern15-A5M-hardware"
+        self.nixosModule.niri
       ];
 
       nix.settings.experimental-features = [

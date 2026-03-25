@@ -3,6 +3,9 @@
 
 We can run all packages, for example `nix run .#myNiri`.
 
+## Check package
+
+Check package configuration with `nix eval`. For example `nix eval .#myNiri`
 
 ## References
 
